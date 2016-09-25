@@ -9,7 +9,7 @@ title: 自定义
 import { Button, notification } from 'antd';
 
 const close = function () {
-  console.log('我被默认的关闭按钮关闭了！');
+  alert('我被默认的关闭按钮关闭了！');
 };
 
 const openNotification = function () {
